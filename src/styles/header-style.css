@@ -1,0 +1,37 @@
+.header {
+    margin: 38px auto 0 auto !important;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logo {
+    max-width: 371px;
+    max-height: 50px;
+}
+
+.header-nav-list {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0 49px;
+    padding: 0;
+}
+
+.header-nav-list li {
+    font-weight: 500;
+}
+
+.header-button {
+    background: #ffffff;
+    padding: 15px 43px;
+    font-size: 18px;
+    color: #000000;
+}

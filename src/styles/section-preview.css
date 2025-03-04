@@ -1,0 +1,92 @@
+/* Раздел с оглавлением и фотками пользователей */
+
+.section-preview {
+    margin-top: 97px !important;
+}
+
+.section-preview_big-title {
+    font-size: 96px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.section-preview_imgs-title {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 23px !important;
+    margin-top: 30px !important;
+}
+
+.section-preview_imgs-number {
+    margin-left: 15px !important;
+    font-size: 64px;
+    font-weight: 500;
+    color: #C8FE62;
+}
+
+/* Раздел с описанием и кнопкой */
+
+.section-preview-description-wrapper {
+    margin-top: 65px !important;
+}
+
+.section-preview-button {
+    margin-right: 63px !important;
+    padding: 16px 45px;
+    background: #ffffff;
+    color: #000000;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.section-preview-description-number {
+    font-size: 48px;
+    font-weight: 500;
+    color: #C8FE62;
+    margin-right: 26px !important;
+}
+
+.section-preview-description {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Раздел с большими фотографиями и их анимациями появления */
+
+.section-preview_people-photos-wrapper {
+    margin-top: 143px !important;
+    height: 632px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+
+.section-preview_people-photos-wrapper img {
+    max-width: 330px;
+    object-fit: contain;
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 1s ease, transform 1s ease; /* Плавные переходы */
+}
+.section-preview_people-photos-wrapper img.animation {
+    opacity: 1;
+}
+
+.section-preview_people-photos-wrapper img.animation:nth-child(1) {
+    transform: translateY(-40px);
+}
+
+.section-preview_people-photos-wrapper img.animation:nth-child(2) {
+    transform: translateY(55px);
+}
+
+.section-preview_people-photos-wrapper img.animation:nth-child(3) {
+    transform: translateY(-80px);
+}
+
+.section-preview_people-photos-wrapper img.animation:nth-child(4) {
+    transform: translateY(80px);
+}

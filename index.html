@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="src/styles/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" async defer src="src/main.js"></script>
+    <script type="module" async defer src="src/animations.js"></script>
+    <title>Vite App</title>
+  </head>
+  <body>
+
+  <div class="section-1-color flex flex-col">
+
+    <!-- HEADER -->
+    <header class="container-wrapper header">
+      <nav class="header-nav">
+        <ol class="header-nav-list">
+          <li>Home</li>
+          <li>Services</li>
+          <li>About As</li>
+        </ol>
+        <div>
+          <img class="header-logo" src="public/logo.svg" alt="logo">
+        </div>
+        <button class="header-button">Get started</button>
+      </nav>
+    </header>
+
+    <!-- SECTION PREVIEW -->
+    <section class="container-wrapper section-preview">
+      <div class="flex flex-row justify-between items-center">
+        <h1 class="section-preview_big-title">
+          Bridging Innovation <br>
+          with Production.
+        </h1>
+
+        <div>
+          <h5 class="section-preview_imgs-title">
+            Over 2500 Users Have <br> Trusted
+          </h5>
+          <div class="flex items-center">
+            <img loading="lazy" src="public/img/image-users-have.png" alt="image-users-have"/>
+            <p class="section-preview_imgs-number">4.9</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row items-center section-preview-description-wrapper">
+        <button class="section-preview-button">Explore Now</button>
+        <p class="section-preview-description-number">240 +</p>
+        <p class="section-preview-description">Lorem ipsum dolor sit amet, consectetur adipiscing <br> elit, sed do eiusmod tempor incididunt ut labore</p>
+      </div>
+
+      <div class="section-preview_people-photos-wrapper">
+        <img loading="lazy" src="public/img/people-preview/people-1.jpg" alt="people preview">
+        <img loading="lazy" src="public/img/people-preview/people-2.jpg" alt="people preview">
+        <img loading="lazy" src="public/img/people-preview/people-3.jpg" alt="people preview">
+        <img loading="lazy" src="public/img/people-preview/people-4.jpg" alt="people preview">
+      </div>
+    </section>
+  </div>
+
+  <main class="section-main-color flex">
+      <section class="container-wrapper section-manufacturing-wrapper">
+          <div>
+            <h1>
+              Tailored Manufacturing <br>
+              Solutions for Every Industry.
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
+          </div>
+      </section>
+  </main>
+
+
+  </body>
+</html>

@@ -1,0 +1,57 @@
+/* FONTS IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* FILE STYLES IMPORT */
+@import "./header-style.css";
+@import "./section-colors.css";
+@import "./section-preview.css";
+@import "./section-manufacturing.css";
+
+:root {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  margin: 0;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container-wrapper {
+  max-width: 1410px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-end {
+  align-items: baseline;
+}
+
